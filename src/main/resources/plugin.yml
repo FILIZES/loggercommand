@@ -1,0 +1,7 @@
+name: loggercommand
+version: '${version}'
+main: me.filizes.loggercommand.Main
+api-version: '1.16'
+load: STARTUP
+authors: [FILIZES]
+description: LoggerCommand

@@ -1,0 +1,17 @@
+# Webhook URL (можно несколько)
+webhook_urls:
+  - "https://discord.com/api/webhooks/..."
+  - "https://discord.com/api/webhooks/..." # Можно добавить еще один
+
+# Какие команды логировать
+commands:
+  - "/ban"
+  - "/kick"
+  - "/op"
+  - "/deop"
+
+# Формат времени в логах
+time_format: "yyyy-MM-dd HH:mm:ss"
+
+# Формат сообщения в Webhook
+webhook_message: "**Команда:** {command}\n**Аргументы:** {arguments}\n**Игрок:** {player}\n**Время:** {time}"
